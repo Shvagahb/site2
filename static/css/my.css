@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cedarville+Cursive|Cantarell|Fjalla+One|Reenie+Beanie');
+
+@font-face {
+  font-family:'Russian';
+  src: url('/fonts/Russian.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'motherland';
+  src: url('/fonts/motherland.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Soviet2';
+  src: url('/fonts/soviet/Soviet2.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  /*position: fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1450037649614-fd8503521870?dpr=1&auto=format&fit=crop&w=1500&h=1044&q=80&cs=tinysrgb&crop=");
+}
+
+}
+h1 {
+  font-family: Soviet2;
+  font-size: 10em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #222;
+  font-weight: bold;
+  font-family: Cedarville Cursive;
+}
+
+h3 {
+  font-family: Cantarell;
+  color: #bbb;
+  font-size: 21px;
+
+}
+
+h4 {
+
+}
+
+p {
+  font-size: 18px;
+}
+
+#post-list a {
+  font-family: Fjalla One;
+  font-size: 21px;
+}
+#post-list a:hover {
+  text-decoration: line-through;
+  color: black;
+}
+
+.profile h1 {
+  font-family: Soviet2;
+  font-size: 10em;
+}
+.post h1 {
+  font-family: Soviet2;
+  font-size: 10em;
+}
+img#avatar.2x {
+  display:none;
+  z-index: 5;
+
+}
+
+nav.main-nav a {
+    font-family: Fjalla One;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    z-index: 5;
+
+  }
+
+nav.main-nav {
+  background: rgba(255, 255, 255, 0);
+}
+
+.profile #wrapper {
+    padding: 88px 0px 0px;
+    max-width: 51em;
+    margin: 0 auto;
+    z-index: 5;
+
+  }
+.post #wrapper {
+    padding: 88px 0px 0px;
+    max-width: 51em;
+    margin: 0 auto;
+    z-index: 5;
+
+  }
+
+nav.main-nav a.cta:hover {
+    /*background: #f15656;*/
+}
+
+nav.main-nav a.cta {
+    background: #000000;
+    color: #fff;
+    margin-left: 12px;
+    z-index: 5;
+  }
+
+#wrapper {
+    max-width: 900px;
+    background: #fdfdfd;
+    z-index: 5;
+  }
+
+#wrapper.home {
+  max-width: 887px !important;
+  }

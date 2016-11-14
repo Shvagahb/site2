@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cedarville+Cursive|Cantarell|Fjalla+One|Reenie+Beanie');
+
+@font-face {
+  font-family:'Russian';
+  src: url('/fonts/Russian.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'motherland';
+  src: url('/fonts/motherland.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'soviet2';
+  src: url('/fonts/soviet/soviet2.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #EBDCCB;
+  /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/83/Trans-Siberian_Railway_1990._Barabinsk_Station.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;*/
+}
+h1 {
+  font-family: motherland;
+  font-size: 10em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #222;
+  font-weight: bold;
+  font-family: Cedarville Cursive;
+}
+
+h3 {
+  font-family: Cantarell;
+  color: #bbb;
+  font-size: 21px;
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+#post-list a {
+  font-family: motherland;
+  font-size: 21px;
+}
+.profile h1 {
+  font-family: motherland;
+  font-size: 10em;
+}
+.post h1 {
+  font-family: motherland;
+  font-size: 10em;
+}
+img#avatar.2x {
+  display:none;
+}
+
+nav.main-nav a {
+    font-family: motherland;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+.profile #wrapper {
+    padding: 88px 0px 0px;
+    max-width: 51em;
+    margin: 0 auto;
+  }
+.post #wrapper {
+    padding: 88px 0px 0px;
+    max-width: 51em;
+    margin: 0 auto;
+  }
+
+nav.main-nav a.cta:hover {
+    background: #f15656;
+}
+
+nav.main-nav a.cta {
+    background: #000000;
+    color: #fff;
+    margin-left: 12px;
